@@ -1,0 +1,23 @@
+DEPLOY RÁPIDO
+=============
+
+1) SUPABASE
+- Crie um projeto.
+- Abra SQL Editor.
+- Execute o arquivo: supabase/schema.sql
+
+2) VERCEL
+- Suba esta pasta para um repositório GitHub.
+- Importe o repositório na Vercel.
+- Cadastre estas Environment Variables:
+  SUPABASE_URL
+  SUPABASE_ANON_KEY
+  SUPABASE_SERVICE_ROLE_KEY
+- Faça o Deploy.
+
+3) PRIMEIRO LOGIN
+- Abra o link da Vercel.
+- O sistema pedirá para criar o primeiro administrador.
+- Depois use Gerenciar usuários para criar os demais acessos.
+
+Não coloque SUPABASE_SERVICE_ROLE_KEY dentro do index.html.

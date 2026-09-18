@@ -1,0 +1,20 @@
+1) Mantenha/crie o arquivo .env.local na MESMA pasta de package.json.
+
+Formato recomendado:
+SUPABASE_URL=https://SEU-PROJETO.supabase.co
+SUPABASE_ANON_KEY=sb_publishable_...
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_...
+
+2) Instale dependências:
+npm install
+
+3) Rode:
+vercel dev
+
+4) Primeiro teste:
+http://localhost:3000/api/config
+
+Se retornar supabaseUrl e supabaseAnonKey, abra:
+http://localhost:3000/
+
+IMPORTANTE: a chave secreta/service role nunca deve ir para GitHub ou para o index.html.

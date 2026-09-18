@@ -1,0 +1,12 @@
+{
+  "name": "gazin-log-cloud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gestão de Jornada Gazin Log com Vercel + Supabase",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4"
+  }
+}
